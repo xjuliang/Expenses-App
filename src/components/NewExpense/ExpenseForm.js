@@ -16,7 +16,7 @@ const ExpenseForm = (props) => {
   };
 
   const dateChangeHandler = (e) => {
-    setEnteredDate(e.target.value); //for saving the value of the input
+    setEnteredDate(e.target.value) //for saving the value of the input
   };
 
   const submitHandler = (e) => {
